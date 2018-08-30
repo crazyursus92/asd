@@ -1,0 +1,8 @@
+.has-error input{
+    border-color: red;
+    background-color: pink;
+}
+
+.submit-button{
+    margin-left: 5px;
+}

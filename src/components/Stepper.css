@@ -1,0 +1,22 @@
+.stepper-container{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.tab-pane{
+  padding: 20px;
+}
+.stepper-container .nav-tabs{
+  flex-shrink: 0;
+}
+
+.stepper-container .tab-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.stepper-container .tab-content > .tab-pane{
+  display: flex;
+  flex-direction: column;
+}

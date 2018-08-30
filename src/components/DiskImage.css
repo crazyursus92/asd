@@ -1,0 +1,23 @@
+.search-input{
+    margin-bottom: 20px;
+    flex-shrink: 0;
+}
+
+.disk-image-list{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+.disk-image-list-item{
+    flex-shrink: 0;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 2px solid transparent;
+}
+
+.disk-image-list-item.active{
+    border: 2px solid green;
+}
